@@ -54,7 +54,7 @@
                                                     <input type="number" step="any" name="txt-amt-update" class="form-control" id="input-amt" placeholder="Amount $" aria-label="Server" value="<?=$row['amount']?>">
                                                 </div>
                                                  <select name="txt-choices-updated" id="" class="form-control mt-3 mb-3" required>
-                                                    <option>-Please Change Methods-</option>
+                                                    <option value="Please Change Methods">Please Change Methods</option>
                                                     <option value="Bank Account" <?php if($row['bank_type'] === "Bank Account") { echo "selected";} ?>>Bank Account</option>
                                                     <option value="Cash On Hand" <?php if($row['bank_type'] === "Cash On Hand") { echo "selected";} ?>>Cash On Hand</option>
                                                 </select>
