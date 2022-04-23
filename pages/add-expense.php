@@ -19,12 +19,12 @@
                                 <input type="number" step="any" name="txt-amt" class="form-control" id="input-amt" placeholder="Amount $" aria-label="Server" required>
                             </div>
                             <select name="txt-choices" id="" class="form-control mt-3 mb-3" required>
-                                <option>-Please Select Methods-</option>
+                                <option>Please Select Methods</option>
                                 <option value="Bank Account">Bank Account</option>
                                 <option value="Cash On Hand">Cash On Hand</option>
 
                             </select>
-                            <textarea name="txt-memo" required id="" cols="" rows="" class="form-control mb-3" placeholder="Memo @type something"></textarea>
+                            <textarea name="txt-memo" required id="" cols="" rows="" class="form-control mb-3" placeholder="Memo types something"></textarea>
                             <input type="date" name="txt-created-at" id="" class="form-control" required>
                             <input type="reset" class="form-control mt-3 btn btn-light">
                             <input type="submit" class="form-control mt-3" value="Add Expenses" id="btn-submit-xpense" name="btn-submit">

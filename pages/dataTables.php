@@ -1,7 +1,7 @@
 <div class="table-data-container container">
             <table class="table table-bordered" id="myTable">
                 <thead>
-                    <tr>
+                    <tr style="font-size: 14px;">
                         <th>N<sup>o</sup></th>
                         <th>Account</th>
                         <th>Amount</th>
@@ -22,7 +22,7 @@
                             {
                                 $bank_types = $row['bank_type'];
                         ?>
-                                <tr>
+                                <tr style="font-size: 14px;">
                                     <td><?php echo $i; ?></td>
                                     <td><?php echo $row['account_name']; ?></td>
                                     <td>$<?php echo $row['amount']; ?></td>
@@ -58,7 +58,7 @@
                                                     <option value="Bank Account" <?php if($row['bank_type'] === "Bank Account") { echo "selected";} ?>>Bank Account</option>
                                                     <option value="Cash On Hand" <?php if($row['bank_type'] === "Cash On Hand") { echo "selected";} ?>>Cash On Hand</option>
                                                 </select>
-                                                <textarea name="txt-memo-updated" id="" cols="30" rows="" class="form-control mb-3" placeholder="Memo" ><?=$row['memo']?></textarea>
+                                                <textarea name="txt-memo-updated" id="" cols="30" rows="" class="form-control mb-3" placeholder="Memo types something" ><?=$row['memo']?></textarea>
                                                 <input type="date" name="txt-created-at-updated" id="" class="form-control" value="<?=$row['date']?>">
                                                 <input type="submit" class="form-control mt-3" value="Update Expenses" id="btn-submit-xpense" name="btn-update">
                                                 <div class="modal-footer">

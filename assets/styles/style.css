@@ -35,6 +35,28 @@ body {
     font-weight: 500;
 
 }
+.xpense-logo-wraper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+nav ul li a:hover {
+    color: var(--bg-color)
+}
 
 .add-expense-wrapper {
     display: flex;

@@ -32,6 +32,24 @@
                             Xpense-Notes
                         </a>
                    </div>
+                    <nav>
+                       <ul>
+                           <li style="display: flex; align-items: center;">
+                           <a href="logout.php"> 
+                               
+                                <span class="material-symbols-rounded" style="font-size: 19px;">
+                                    logout
+                                </span>
+                                Log Out
+                            </a></li>
+                           <li><a href="register.php">
+                               <span class="material-symbols-rounded" style="font-size: 22px;" >
+                                    how_to_reg
+                                </span>
+                                Register
+                            </a></li>
+                       </ul>
+                    </nav>
                   
                 </div>
         </header>

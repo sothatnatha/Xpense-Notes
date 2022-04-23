@@ -1,0 +1,24 @@
+:root {
+    --primary-color:#186695; 
+    --white-color: #fff;
+}
+
+.login-xpense-container {
+    width: 390px;
+    margin: 50px auto;
+   
+}
+.login-box {
+    padding: 30px 30px;
+    border-radius: 5px;
+    background-color: var(--white-color);
+}
+#register-link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+#btn-login {
+    background-color:var(--primary-color);
+    color: var(--white-color);
+}
