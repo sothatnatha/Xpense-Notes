@@ -39,7 +39,7 @@ body {
 .add-expense-wrapper {
     display: flex;
     justify-content: center;
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 #btn-add-new-xpense {
@@ -54,4 +54,13 @@ body {
 }
 #btn-cancel-xpense {
     font-size: var(--sm-font);
+}
+
+
+.table {
+    text-align: center;
+}
+#edit-icon-xpense {
+    color: var(--primary-color);
+    font-size: 10px !important;
 }
